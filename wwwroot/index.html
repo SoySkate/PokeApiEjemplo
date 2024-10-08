@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="pokemon-list">
+        <ul>
+        </ul>
+    </div>
+
+    <script>
+        const baseUrl = 'http://localhost:5187/api'; // Replace with your actual API base URL
+        console.log("voy a fechear");
+        fetch(`${baseUrl}/pokemons`)
+            .then(response => response.json())
+            .then(data => {
+                const pokemonList = document.getElementById('pokemon-list');
+                pokemonList.innerHTML = ''; // Clear the list before appending
+                console.log("nose si va esto xd");
+
+                data.forEach(pokemon => {
+                    const li = document.createElement('li');
+                    li.textContent = pokemon.name;
+                    pokemonList.appendChild(li);
+                });
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    </script>
+</body>
+</html>

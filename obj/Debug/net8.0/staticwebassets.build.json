@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "cU5zzZpbQi51etcDcVebaPUrtMK+2HEc4clumjktPcY=",
+  "Source": "PokemonReviewApp",
+  "BasePath": "_content/PokemonReviewApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PokemonReviewApp\\wwwroot",
+      "Source": "PokemonReviewApp",
+      "ContentRoot": "C:\\Users\\Andrew\\source\\repos\\PokemonReviewApp\\wwwroot\\",
+      "BasePath": "_content/PokemonReviewApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Andrew\\source\\repos\\PokemonReviewApp\\wwwroot\\index.css",
+      "SourceId": "PokemonReviewApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Andrew\\source\\repos\\PokemonReviewApp\\wwwroot\\",
+      "BasePath": "_content/PokemonReviewApp",
+      "RelativePath": "index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\Andrew\\source\\repos\\PokemonReviewApp\\wwwroot\\index.html",
+      "SourceId": "PokemonReviewApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Andrew\\source\\repos\\PokemonReviewApp\\wwwroot\\",
+      "BasePath": "_content/PokemonReviewApp",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Andrew\\source\\repos\\PokemonReviewApp\\wwwroot\\index.js",
+      "SourceId": "PokemonReviewApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Andrew\\source\\repos\\PokemonReviewApp\\wwwroot\\",
+      "BasePath": "_content/PokemonReviewApp",
+      "RelativePath": "index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.js"
+    }
+  ]
+}
